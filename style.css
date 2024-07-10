@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 120px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav img{
+    width: 280px;
+    height: 80px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    color: hsla( 150.81,30.08%,24.12% ,1);
+    margin-top: 45px;
+}
+
+nav ul li{
+    margin-left: 30px;
+}
+
+nav button{
+    background-color:hsl(96.43deg 12.73% 43.14%);
+    color: white;
+    height: 40px;
+    width: 120px;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 5px;
+    border: none;
+}
+
+nav button h5{
+    position: relative;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+#banner{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 800px;
+}
+
+.imagetext{
+    display: block;
+    position: relative;
+    bottom: 600px;
+    left: 300px;
+    z-index: 1;
+}
+
+.imagetext h1{
+    color: hsla( 150.81,30.08%,24.12% ,1);
+    font-size: 45px;
+}
+
+.imagetext h3{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: hsla( 150.81,30.08%,24.12% ,1);
+}
+
+.imagetext button{
+    padding: 20px;
+    background-color: hsl(96.43deg 12.73% 43.14%);
+    color: white;
+    margin-top: 30px;
+    border: none;
+}
+
+
+
+.caption{
+    margin-left: 35px;
+    margin-top: 20px;
+    color: hsla( 150.81,30.08%,24.12% ,1);
+}
+
+.co-6 h2{
+    color: hsla( 150.81,30.08%,24.12% ,1);
+    font-size: 45px;
+
+}
+.co-6 h4{
+    margin-top: 30px;
+    font-size: 20px;
+    width: 600px;
+}
+
+.learnmore{
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color:  hsl(96.43deg 12.73% 43.14%);
+    border: none;
+}
+
+.ro1{
+    margin-left: 210px;
+}
+
+#articles h1{
+    color: hsla( 150.81,30.08%,24.12% ,1);
+    text-decoration: underline;
+}
